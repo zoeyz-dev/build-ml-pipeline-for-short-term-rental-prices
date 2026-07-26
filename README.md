@@ -1,5 +1,11 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
-You are working for a property management company renting rooms and properties for short periods of 
+
+## Submission
+
+- GitHub: https://github.com/zoeyz-dev/build-ml-pipeline-for-short-term-rental-prices
+- Weights & Biases: https://wandb.ai/botz-dev/nyc_airbnb
+
+You are working for a property management company renting rooms and properties for short periods of
 time on various rental platforms. You need to estimate the typical price for a given property based 
 on the price of similar properties. Your company receives new data in bulk every week. The model needs 
 to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
@@ -554,6 +560,10 @@ This will drop rows in the dataset that are not in the proper geolocation.
 Then commit your change, make a new release (for example ``1.0.1``) and retry (of course you need to use 
 ``-v 1.0.1`` when calling mlflow this time). Now the run should succeed and voit la', 
 you have trained your new model on the new data.
+
+## Future changes
+
+If I had more time I'd try Optuna for hyperparameters, a small API for inference, and a weekly job to retrain when new data arrives.
 
 ## In case of errors
 
