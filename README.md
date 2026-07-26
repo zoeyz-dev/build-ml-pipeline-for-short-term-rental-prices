@@ -561,10 +561,6 @@ Then commit your change, make a new release (for example ``1.0.1``) and retry (o
 ``-v 1.0.1`` when calling mlflow this time). Now the run should succeed and voit la', 
 you have trained your new model on the new data.
 
-## Future changes
-
-If I had more time I'd try Optuna for hyperparameters, a small API for inference, and a weekly job to retrain when new data arrives.
-
 ## In case of errors
 
 ### Environments
